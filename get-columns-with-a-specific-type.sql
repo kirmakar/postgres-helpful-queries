@@ -6,5 +6,5 @@ SELECT
 FROM
 	information_schema.columns
 WHERE
-	table_schema = 'workbench'
+	table_schema = '<schema>'
 	AND udt_name = 'date'
